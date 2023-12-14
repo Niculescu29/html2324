@@ -1,0 +1,43 @@
+@media (max-width: 640px) {
+    /* mobil */
+    h1{
+        color:rgb(71, 117, 10);    
+    } 
+    #tab, #lap, #pc {
+        display: none;
+    }
+
+}
+
+@media (min-width:641px) and (max-width:767px) {
+    /* tableta */
+    h1{
+        color:rgb(214, 37, 214);
+    }
+    #mob, #lap, #pc {
+        display:none;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    /* laptop */
+    h1{
+        color:saddlebrown;
+    }
+    #mob, #tab, #pc {
+        display:none;
+    }
+    
+}
+
+@media (min-width:1201px) {
+    /* PC */
+    h1{
+        color:darkorange;
+    }
+    #mob, #lap, #tab {
+        display:none;
+    }
+    
+}

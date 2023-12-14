@@ -1,0 +1,32 @@
+div{
+    width: 45%;
+    float: left;
+    border: 2px solid #000000;
+    padding: 25px;
+    margin: 10px;
+}
+#stanga{
+    background-color: burlywood;
+
+}
+#dreapta{
+    background-color: chocolate;
+}
+.p1{
+    color:darkgreen
+}
+.p2{
+    color:white
+}
+#p5{
+    color:hotpink
+}
+#bottom{
+     width: 100%
+}
+#bottom > p{
+ color:red
+}
+#bottom article+p{
+    color:blue
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1280px;
+}
+div {
+  width: 100%;
+  max-width: 216px;
+  float: left;
+  margin: 10px 25px 15px 20px;
+  padding: 25px;
+  border-top: 2px solid rgba(127, 255, 212, 0.562);
+  border-left: 2px dotted grey;
+  border-bottom: 2px solid green;
+  border-right: 2px dotted red;
+  /* border-color: blue purple; */
+  border-style: double;
+  border-width: 2px;
+
+  /* border: 2px double blue; */
+  border-radius: 25px;
+  background-image: url("../curs2/images/Icon_Pinguin_1_512x512.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: #6e2020;
+}
